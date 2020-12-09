@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JspModel:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JspModel_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JspModel/web/웹" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JspModel" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="cos" />
+          <element id="library" level="project" name="el-api" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="ojdbc6" />
+          <element id="library" level="project" name="ojdbc14" />
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="standard" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
