@@ -12,8 +12,8 @@ meUpdate=mypkg.member.MemberUpdateController
 #meDelete=mypkg.member.MemberDeleteController
 #### Board Section ######################################################
 boList=mypkg.board.BoardListController
-#boInsert=mypkg.board.BoardInsertController
-#boDetailView=mypkg.board.BoardDetailViewController
+boInsert=mypkg.board.BoardInsertController
+boDetailView=mypkg.board.BoardDetailViewController
 #boDelete=mypkg.board.BoardDeleteController
 #boUpdate=mypkg.board.BoardUpdateController
 #boReply=mypkg.board.BoardReplyController

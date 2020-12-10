@@ -1,6 +1,7 @@
 package mypkg.member;
 
 import mypkg.bean.Member;
+import mypkg.board.BoardListController;
 import mypkg.common.SuperClass;
 import mypkg.dao.MemberDao;
 
@@ -54,8 +55,9 @@ public class MemberLoginController extends SuperClass {
                 super.setErrorMessage("아이디 혹은 비밀번호가 잘못되었습니다.");
             }else { //로그인 성공
                 //게시물 목록 보기 페이지
-                gotopage = "board/boList.jsp";
+                gotopage = "common/main.jsp";
                 super.session.setAttribute("loginfo", bean);
+//                new BoardListController().doGet(request, response);
             }
             super.GotoPage(gotopage);
         }

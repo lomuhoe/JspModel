@@ -33,7 +33,7 @@
                         <input type="text" class="form-control" name="id" id="id"
                                data-toggle="tooltip" data-placement="top"
                                title="아이디는  4글자 이상 10글자 이하로 입력해 주세요."
-                               placeholder="아이디를 넣어 주셔용^^" value="${requestScope.id}">
+                               placeholder="아이디를 넣어 주셔용^^" value="${erquestScope.id}">
                         <span class="err">${errid}</span>
                     </div>
                 </div>
